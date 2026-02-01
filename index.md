@@ -8,21 +8,13 @@ title: "Kartik Patel Portfolio"
 Explore my work and notes below:
 
 <div class="portfolio-tabs">
-
-  <a href="DSA.md" class="tab-card">
+    <a href="/DSA/" class="tab-card">DSA</a>
     <h2>DSA Notes</h2>
     <p>Explore algorithm and data structure problems, resources, and practice questions.</p>
-  </a>
 
-  <a href="SystemDesign.md" class="tab-card">
+  <a href="/SystemDesign/" class="tab-card">System Design</a>
     <h2>System Design</h2>
     <p>Learn system design concepts, patterns, and interview preparation notes.</p>
-  </a>
-
-  <a href="Projects.md" class="tab-card">
-    <h2>Projects</h2>
-    <p>View my portfolio projects and coding work.</p>
-  </a>
 
 </div>
 
