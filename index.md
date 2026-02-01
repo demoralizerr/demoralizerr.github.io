@@ -2,9 +2,7 @@
 layout: default
 title: "Kartik Patel Portfolio"
 ---
-
-# Welcome to Kartik Patel Portfolio
-<div class="header-top">
+<div class="page-header">
   <div class="social-links">
     <a href="https://www.linkedin.com/in/demoralizer/" target="_blank">LinkedIn</a>
     <a href="https://leetcode.com/u/demoralizerr" target="_blank">LeetCode</a>
@@ -13,9 +11,7 @@ title: "Kartik Patel Portfolio"
   </div>
 </div>
 
-
-
-Explore my work and notes below:
+# Welcome to Kartik Patel Portfolio
 
 <div class="portfolio-tabs">
 
@@ -38,6 +34,28 @@ Explore my work and notes below:
   gap: 20px;
   margin-top: 20px;
 }
+.page-header {
+  display: flex;
+  justify-content: flex-end; /* moves to right */
+  padding: 10px 30px;
+  position: sticky; /* sticks on top when scrolling */
+  top: 0;
+  background: #f8fafc; /* match Cayman theme bg */
+  z-index: 100;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #2563eb;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #020617;
+}  
 
 .tab-card {
   flex: 1 1 250px;
