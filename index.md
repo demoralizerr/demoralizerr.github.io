@@ -1,13 +1,7 @@
 ---
 layout: default
-title: "Kartik Patel Portfolio"
+title: "Kartik Patel | Senior Software Engineer @ Mastercard| Problem Solver | Tech Blogger"
 ---
-Hi, I’m **Kartik Patel**! I’m a **Senior Software Engineer** at [Mastercard](https://www.mastercard.com) based in Pune, MH.
-You can find me online here:  
-[LinkedIn](https://www.linkedin.com/in/demoralizer/) |  
-[LeetCode](https://leetcode.com/u/demoralizerr) |  
-[GitHub](https://github.com/demoralizerr) |  
-[Email](mailto:meetkartik40@example.com)
 
 <div class="portfolio-tabs">
 
@@ -30,29 +24,6 @@ You can find me online here:
   gap: 20px;
   margin-top: 20px;
 }
-.page-header {
-  display: flex;
-  justify-content: flex-end; /* moves to right */
-  padding: 10px 30px;
-  position: sticky; /* sticks on top when scrolling */
-  top: 0;
-  background: #f8fafc; /* match Cayman theme bg */
-  z-index: 100;
-  border-bottom: 1px solid #cbd5e1;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: #2563eb;
-  margin-left: 15px;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.social-links a:hover {
-  color: #020617;
-}  
-
 .tab-card {
   flex: 1 1 250px;
   background: #f1f5f9;
