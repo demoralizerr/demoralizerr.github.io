@@ -1,85 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DSA | Kartik Patel</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f8fafc;
-      color: #1f2937;
-    }
+---
+layout: default
+title: "Data Structure & Algorithms"
+---
 
-    header {
-      background: #020617;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .container {
-      display: flex;
-      max-width: 1000px;
-      margin: 20px auto;
-      border: 1px solid #cbd5e1;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 600px;
-    }
-
-    /* Left sidebar */
-    .sidebar {
-      width: 250px;
-      background: #f1f5f9;
-      border-right: 1px solid #cbd5e1;
-      padding: 20px;
-    }
-
-    .sidebar h3 {
-      margin-top: 0;
-      margin-bottom: 10px;
-    }
-
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .sidebar ul li {
-      padding: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .sidebar ul li:hover, .sidebar ul li.active {
-      background: #2563eb;
-      color: white;
-    }
-
-    /* Right content */
-    .content {
-      flex: 1;
-      padding: 20px;
-      overflow-y: auto;
-      background: white;
-    }
-
-    .topic {
-      display: none;
-    }
-
-    .topic.active {
-      display: block;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Kartik Patel | DSA Notes</h1>
-</header>
+# Data Structure & Algorithms
 
 <div class="container">
   <div class="sidebar">
@@ -145,5 +69,57 @@
   }
 </script>
 
-</body>
-</html>
+<style>
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 600px;
+  }
+
+  .sidebar {
+    width: 250px;
+    background: #f1f5f9;
+    border-right: 1px solid #cbd5e1;
+    padding: 20px;
+  }
+
+  .sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .sidebar ul li:hover, .sidebar ul li.active {
+    background: #2563eb;
+    color: white;
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: white;
+  }
+
+  .topic {
+    display: none;
+  }
+
+  .topic.active {
+    display: block;
+  }
+</style>
