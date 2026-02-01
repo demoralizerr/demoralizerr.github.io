@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "DSA Notes"
+permalink: /DSA/
 ---
 
 # DSA Topics
