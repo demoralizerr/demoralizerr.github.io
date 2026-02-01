@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Home
+title: "Kartik Patel Portfolio"
 ---
 
-# Welcome to Demoralizerr
+# Welcome to Kartik Patel Portfolio
 
-This is my first page using Jekyll on GitHub Pages.
+This is my main portfolio page. You can explore my projects and notes below.
+
+## Links
+
+- [DSA Notes](DSA.md)
+- [About Me](about.md)
