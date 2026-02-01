@@ -1,0 +1,6 @@
+title: Kartik Patel Portfolio
+description: >-
+  This is my Jekyll site hosted on GitHub Pages.
+baseurl: ""   # leave empty if site at root
+url: "https://demoralizerr.github.io"
+theme: Cayman   # replace with your desired theme
