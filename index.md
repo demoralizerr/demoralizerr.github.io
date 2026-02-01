@@ -1,17 +1,13 @@
-<div class="page-header">
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/demoralizer/" target="_blank">LinkedIn</a>
-    <a href="https://leetcode.com/u/demoralizerr" target="_blank">LeetCode</a>
-    <a href="https://github.com/demoralizerr" target="_blank">GitHub</a>
-    <a href="mailto:meetkartik40@example.com">meetkartik40@gmail.com</a>
-  </div>
-</div>
 ---
 layout: default
 title: "Kartik Patel Portfolio"
 ---
-
-# Welcome to Kartik Patel Portfolio
+Hi, I’m **Kartik Patel**! I’m a **Senior Software Engineer** at [Mastercard](https://www.mastercard.com) based in Pune, MH.
+You can find me online here:  
+[LinkedIn](https://www.linkedin.com/in/demoralizer/) |  
+[LeetCode](https://leetcode.com/u/demoralizerr) |  
+[GitHub](https://github.com/demoralizerr) |  
+[Email](mailto:meetkartik40@example.com)
 
 <div class="portfolio-tabs">
 
