@@ -4,6 +4,16 @@ title: "Kartik Patel Portfolio"
 ---
 
 # Welcome to Kartik Patel Portfolio
+<div class="header-top">
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/demoralizer/" target="_blank">LinkedIn</a>
+    <a href="https://leetcode.com/u/demoralizerr" target="_blank">LeetCode</a>
+    <a href="https://github.com/demoralizerr" target="_blank">GitHub</a>
+    <a href="mailto:meetkartik40@example.com">meetkartik40@gmail.com</a>
+  </div>
+</div>
+
+
 
 Explore my work and notes below:
 
