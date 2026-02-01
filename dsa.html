@@ -1,147 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DSA | Kartik Patel</title>
-
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
+      background: #f8fafc;
+      color: #1f2937;
     }
 
     header {
-      text-align: center;
-      padding: 25px;
       background: #020617;
-      border-bottom: 1px solid #1e293b;
-    }
-
-    header a {
-      color: #38bdf8;
-      text-decoration: none;
-      font-weight: 600;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
 
     .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 600px;
     }
 
-    h1, h2 {
-      color: #e5e7eb;
+    /* Left sidebar */
+    .sidebar {
+      width: 250px;
+      background: #f1f5f9;
+      border-right: 1px solid #cbd5e1;
+      padding: 20px;
     }
 
-    h2 {
-      margin-top: 40px;
-      border-bottom: 1px solid #1e293b;
-      padding-bottom: 5px;
+    .sidebar h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
     }
 
-    ul {
-      padding-left: 20px;
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
     }
 
-    li {
-      margin-bottom: 8px;
+    .sidebar ul li {
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
     }
 
-    .note {
-      color: #cbd5f5;
-      font-size: 0.95rem;
+    .sidebar ul li:hover, .sidebar ul li.active {
+      background: #2563eb;
+      color: white;
     }
 
-    .links a {
-      color: #7dd3fc;
-      text-decoration: none;
-      margin-right: 12px;
+    /* Right content */
+    .content {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: white;
     }
 
-    .links a:hover {
-      text-decoration: underline;
+    .topic {
+      display: none;
+    }
+
+    .topic.active {
+      display: block;
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <h1>Data Structures & Algorithms</h1>
-  <p class="note">
-    My structured DSA preparation for product-based companies
-  </p>
-  <p><a href="index.html">← Back to Home</a></p>
+  <h1>Kartik Patel | DSA Notes</h1>
 </header>
 
 <div class="container">
-
-  <h2>Arrays & Strings</h2>
-  <ul>
-    <li>Two pointers</li>
-    <li>Sliding window</li>
-    <li>Prefix sum</li>
-    <li>Sorting-based problems</li>
-  </ul>
-
-  <h2>Hashing</h2>
-  <ul>
-    <li>Frequency maps</li>
-    <li>Set-based lookups</li>
-    <li>Subarray sum problems</li>
-  </ul>
-
-  <h2>Stacks & Queues</h2>
-  <ul>
-    <li>Monotonic stack</li>
-    <li>Next greater element</li>
-    <li>Valid parentheses</li>
-    <li>Sliding window maximum</li>
-  </ul>
-
-  <h2>Linked List</h2>
-  <ul>
-    <li>Reverse linked list</li>
-    <li>Fast & slow pointers</li>
-    <li>Cycle detection</li>
-    <li>Merge linked lists</li>
-  </ul>
-
-  <h2>Trees</h2>
-  <ul>
-    <li>Tree traversals (DFS, BFS)</li>
-    <li>Binary Search Tree</li>
-    <li>Lowest Common Ancestor</li>
-    <li>Height / Diameter problems</li>
-  </ul>
-
-  <h2>Graphs</h2>
-  <ul>
-    <li>BFS & DFS</li>
-    <li>Topological sort</li>
-    <li>Shortest path (Dijkstra)</li>
-    <li>Connected components</li>
-  </ul>
-
-  <h2>Dynamic Programming</h2>
-  <ul>
-    <li>1D DP (House Robber, Climbing Stairs)</li>
-    <li>2D DP (Knapsack, LCS)</li>
-    <li>DP on grids</li>
-    <li>DP on trees</li>
-  </ul>
-
-  <h2>Practice Links</h2>
-  <div class="links">
-    <a href="https://leetcode.com/yourusername" target="_blank">LeetCode</a>
-    <a href="https://codeforces.com/" target="_blank">Codeforces</a>
-    <a href="#">My Notes</a>
+  <div class="sidebar">
+    <h3>Topics</h3>
+    <ul>
+      <li class="active" onclick="showTopic('array')">Complete Array Problems & Resources Guide</li>
+      <li onclick="showTopic('strings')">Strings</li>
+      <li onclick="showTopic('linkedlist')">Linked List</li>
+      <li onclick="showTopic('stack')">Stack & Queue</li>
+      <li onclick="showTopic('dp')">Dynamic Programming</li>
+      <li onclick="showTopic('graph')">Graphs</li>
+    </ul>
   </div>
 
+  <div class="content">
+    <div id="array" class="topic active">
+      <h2>Complete Array Problems & Resources Guide</h2>
+      <p>Add your array problems and resources here.</p>
+    </div>
+
+    <div id="strings" class="topic">
+      <h2>Strings</h2>
+      <p>Add your string problems and resources here.</p>
+    </div>
+
+    <div id="linkedlist" class="topic">
+      <h2>Linked List</h2>
+      <p>Add your linked list problems and resources here.</p>
+    </div>
+
+    <div id="stack" class="topic">
+      <h2>Stack & Queue</h2>
+      <p>Add your stack and queue problems and resources here.</p>
+    </div>
+
+    <div id="dp" class="topic">
+      <h2>Dynamic Programming</h2>
+      <p>Add your dynamic programming problems and resources here.</p>
+    </div>
+
+    <div id="graph" class="topic">
+      <h2>Graphs</h2>
+      <p>Add your graph problems and resources here.</p>
+    </div>
+  </div>
 </div>
+
+<script>
+  function showTopic(topicId) {
+    // Hide all topics
+    const topics = document.querySelectorAll('.topic');
+    topics.forEach(t => t.classList.remove('active'));
+
+    // Remove active class from all sidebar items
+    const items = document.querySelectorAll('.sidebar ul li');
+    items.forEach(i => i.classList.remove('active'));
+
+    // Show selected topic
+    document.getElementById(topicId).classList.add('active');
+
+    // Set clicked item active
+    event.target.classList.add('active');
+  }
+</script>
 
 </body>
 </html>
