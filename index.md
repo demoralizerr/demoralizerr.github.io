@@ -1,7 +1,3 @@
----
-layout: default
-title: "Kartik Patel Portfolio"
----
 <div class="page-header">
   <div class="social-links">
     <a href="https://www.linkedin.com/in/demoralizer/" target="_blank">LinkedIn</a>
@@ -10,6 +6,10 @@ title: "Kartik Patel Portfolio"
     <a href="mailto:meetkartik40@example.com">meetkartik40@gmail.com</a>
   </div>
 </div>
+---
+layout: default
+title: "Kartik Patel Portfolio"
+---
 
 # Welcome to Kartik Patel Portfolio
 
