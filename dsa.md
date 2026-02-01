@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Data Structure & Algorithms"
+title: "DSA | Kartik Patel"
 ---
 
-# Data Structure & Algorithms
+# Kartik Patel | DSA Notes
 
-<div class="container">
-  <div class="sidebar">
+<div class="dsa-container">
+  <div class="dsa-sidebar">
     <h3>Topics</h3>
     <ul>
       <li class="active" onclick="showTopic('array')">Complete Array Problems & Resources Guide</li>
@@ -18,7 +18,7 @@ title: "Data Structure & Algorithms"
     </ul>
   </div>
 
-  <div class="content">
+  <div class="dsa-content">
     <div id="array" class="topic active">
       <h2>Complete Array Problems & Resources Guide</h2>
       <p>Add your array problems and resources here.</p>
@@ -53,24 +53,19 @@ title: "Data Structure & Algorithms"
 
 <script>
   function showTopic(topicId) {
-    // Hide all topics
     const topics = document.querySelectorAll('.topic');
     topics.forEach(t => t.classList.remove('active'));
 
-    // Remove active class from all sidebar items
-    const items = document.querySelectorAll('.sidebar ul li');
+    const items = document.querySelectorAll('.dsa-sidebar ul li');
     items.forEach(i => i.classList.remove('active'));
 
-    // Show selected topic
     document.getElementById(topicId).classList.add('active');
-
-    // Set clicked item active
     event.target.classList.add('active');
   }
 </script>
 
 <style>
-  .container {
+  .dsa-container {
     display: flex;
     max-width: 1000px;
     margin: 20px auto;
@@ -80,35 +75,35 @@ title: "Data Structure & Algorithms"
     height: 600px;
   }
 
-  .sidebar {
+  .dsa-sidebar {
     width: 250px;
     background: #f1f5f9;
     border-right: 1px solid #cbd5e1;
     padding: 20px;
   }
 
-  .sidebar h3 {
+  .dsa-sidebar h3 {
     margin-top: 0;
     margin-bottom: 10px;
   }
 
-  .sidebar ul {
+  .dsa-sidebar ul {
     list-style: none;
     padding: 0;
   }
 
-  .sidebar ul li {
+  .dsa-sidebar ul li {
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
   }
 
-  .sidebar ul li:hover, .sidebar ul li.active {
+  .dsa-sidebar ul li:hover, .dsa-sidebar ul li.active {
     background: #2563eb;
     color: white;
   }
 
-  .content {
+  .dsa-content {
     flex: 1;
     padding: 20px;
     overflow-y: auto;
