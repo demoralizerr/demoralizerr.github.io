@@ -1,6 +1,11 @@
 ---
 layout: default
-title: "Kartik Patel | Senior Software Engineer @ Mastercard| Problem Solver | Tech Blogger"
+title: "Kartik Patel"
+---
+
+# Kartik Patel
+**Senior Software Engineer @ Mastercard | Problem Solver | Tech Blogger**
+
 ---
 
 <div class="portfolio-tabs">
