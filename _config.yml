@@ -1,6 +1,5 @@
-title: Kartik Patel Portfolio
-description: >-
-  This is my Jekyll site hosted on GitHub Pages.
-baseurl: ""   # leave empty for a user site (demoralizerr.github.io)
-url: "https://demoralizerr.github.io"
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [Kartik Patel Resume]
+description: []
