@@ -47,14 +47,11 @@ Senior Software Engineer specializing in Java, Spring Boot, Distributed Systems,
 - Solved **500+ LeetCode problems**
   - 200+ Medium
   - 200+ Hard
-- Achieved **Knight Badge** on LeetCode
-- Ranked among the **Top 5% programmers globally**
+- Achieved **Knight Badge** on LeetCode **Top 5% programmers globally**
+- 3 Star at CodeChef
 
 ### Profiles
-- GitHub: https://github.com/demoralizerr
-- LeetCode: https://leetcode.com/frankenstrike
-- LinkedIn: https://linkedin.com/in/demoralizer
-
+- LeetCode: https://leetcode.com/frankenstrik
 ---
 
 # 🛠 Skills
