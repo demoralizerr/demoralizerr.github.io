@@ -1,55 +1,47 @@
-8+ years of experience building scalable backend systems at Mastercard with expertise in high-throughput microservices, Kafka pipelines, distributed architectures, and enterprise-grade platform engineering.
+# Kartik Patel
+
+📞 +91-9685256680 | 📧 meetkartik40@gmail.com | 💼 LinkedIn: https://linkedin.com/in/demoralizer
+
+GitHub: https://github.com/demoralizerr | LeetCode: https://leetcode.com/frankenstrike
 
 ---
 
 # 💼 Professional Experience
 
 ## Mastercard
-### Senior Software Engineer  
+### Senior Software Engineer
 **Jan 2025 – Present | Pune, India**
 
-- Reduced file ingestion time by **67% (1 hr → 20 min)** for a 1 GB payload by redesigning the GET API to stream chunks directly into the database, eliminating in-memory buffering and improving reliability under load.
-- Spearheaded architecture and implementation of an Australian Business Number matching service (**60%+ of codebase**) — designed service boundaries, API contracts, and data flow that directly contributed to commercial payments revenue growth.
-- Led technical design reviews for cross-team integrations, defining integration patterns and data schemas that reduced downstream coupling and improved maintainability.
-
----
+- Reduced file ingestion time by **67% (1 hr → 20 min)** for a 1 GB payload by redesigning the GET API to stream chunks directly into the database.
+- Spearheaded architecture and implementation of an Australian Business Number matching service (**60%+ of codebase**) that directly contributed to commercial payments revenue growth.
+- Led technical design reviews for cross-team integrations, defining integration patterns and data schemas that reduced downstream coupling.
 
 ## Mastercard
-### Software Engineer II  
+### Software Engineer II
 **Nov 2021 – Jan 2025 | Pune, India**
 
-- Designed a high-throughput transaction fragment merging pipeline processing:
-  - **300+ TPS inbound events**
-  - **400+ TPS outbound merged events**
-- Architected consumer topology, concurrency model, and event schema for exactly-once processing guarantees.
-- Increased Kafka topic onboarding speed by **90%** by designing a config-driven generic consumer framework abstracting deserialization, retry logic, and error handling.
-- Eliminated duplicate scheduled-job execution across **8 distributed instances** using ShedLock-based distributed locking with optimized transaction boundaries and lock TTL strategy.
-- Improved observability through structured logging and metrics instrumentation, enabling faster production incident debugging and root cause analysis.
-
----
+- Designed a high-throughput transaction fragment merging pipeline processing **300+ TPS inbound** and **400+ TPS outbound** events.
+- Increased Kafka topic onboarding speed by **90%** through a config-driven generic consumer framework.
+- Eliminated duplicate scheduled-job execution across **8 distributed instances** using ShedLock-based distributed locking.
+- Improved observability through structured logging and metrics instrumentation.
 
 ## Tata Consultancy Services
-### System Engineer  
+### System Engineer
 **Jun 2019 – Nov 2021 | Pune, India**
 
-- Designed a backend ETL microservice consuming **400+ TPS** real-time Kafka events with scalable AWS Docker deployment architecture.
-- Improved test coverage from **10% → 90%** using JUnit across bill-pay backend services.
-- Established structured code review standards across a 6-engineer team, reducing PR cycle time by ~30% and minimizing post-merge bugs.
+- Designed ETL microservices consuming **400+ TPS** real-time Kafka events.
+- Improved test coverage from **10% to 90%** using JUnit.
+- Established code review standards that reduced PR cycle time and post-merge defects.
 
 ---
 
 # 🏆 Coding Achievements
 
-- Solved **500+ LeetCode problems**
+- Solved **500+ LeetCode Problems**
   - 200+ Medium
   - 200+ Hard
-- Achieved **Knight Badge** on LeetCode
+- **Knight Badge** on LeetCode
 - Ranked among the **Top 5% programmers globally**
-
-### Profiles
-- GitHub: https://github.com/demoralizerr
-- LeetCode: https://leetcode.com/frankenstrike
-- LinkedIn: https://linkedin.com/in/demoralizer
 
 ---
 
@@ -77,12 +69,3 @@ PCF · AWS · Docker · Maven · Gradle · Spring Security
 ## B.Tech, Computer Engineering
 RGPV University  
 Aug 2015 – Jun 2019
-
----
-
-# 🌐 Connect With Me
-
-- 📧 Email: meetkartik40@gmail.com
-- 💼 LinkedIn: https://linkedin.com/in/demoralizer
-- 💻 GitHub: https://github.com/demoralizerr
-- 🧠 LeetCode: https://leetcode.com/frankenstrike
