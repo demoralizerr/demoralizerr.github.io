@@ -51,7 +51,8 @@ Senior Software Engineer specializing in Java, Spring Boot, Distributed Systems,
 - 3 Star at CodeChef
 
 ### Profiles
-- LeetCode: https://leetcode.com/frankenstrik
+- LeetCode: https://leetcode.com/frankenstrike
+  
 ---
 
 # 🛠 Skills
